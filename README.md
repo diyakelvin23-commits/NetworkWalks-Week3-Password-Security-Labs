@@ -1,89 +1,86 @@
-# NetworkWalks-Week3-Password-Security-Labs
-Documentation of Week 3 cybersecurity labs covering password security, hash concepts, and password-auditing tools using John the Ripper, Johnny, and NetworkWalks tools.
-
-
 # NetworkWalks Week 3 – Password Security Labs
+
+![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Training-blue)
+![Week](https://img.shields.io/badge/Week-3-orange)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
 ## Overview
 
-This repository documents my Week 3 cybersecurity practical projects completed as part of the NetworkWalks Cybersecurity & Ethical Hacking training program.
+This repository contains documentation of my Week 3 practical projects completed as part of the NetworkWalks Cybersecurity & Ethical Hacking training program.
 
-The projects focus on password security, password hashes, password-auditing tools, and understanding the risks associated with weak passwords.
+The projects focus on password security, password hashes, password-auditing tools, and understanding the security implications of weak passwords.
 
-## Projects
+## Project Modules
 
-### Project Module 1: Password Cracking with JTR
+### Module 1 – Password Cracking with JTR
 
-This module introduces John the Ripper (JTR) and Johnny, a graphical interface for John the Ripper.
+This module introduces John the Ripper (JTR) and Johnny GUI, exploring password-auditing concepts and password security.
 
-**Tools covered:**
-- John the Ripper (JTR)
+**Tools:**
+- John the Ripper
 - Johnny GUI
 - Windows PC
 
-**Objectives:**
-- Understand the purpose of password-auditing tools.
-- Learn about password hashes.
-- Explore the functionality of John the Ripper and Johnny.
-- Understand password security and the importance of strong passwords.
-
-**Documentation:**  
-The practical observations, screenshots, and results from Module 1 are documented in the `Module-1-John-the-Ripper` directory.
+📁 [View Module 1 Documentation](./Module-1-John-the-Ripper/README.md)
 
 ---
 
-### Project Module 2: Password Cracking with NetworkWalks Tools
+### Module 2 – Password Cracking with NetworkWalks Tools
 
-This module introduces browser-based tools developed by NetworkWalks for password-security training.
+This module explores NetworkWalks' browser-based tools for password-security training, including the Hash Calculator and Password Cracker.
 
-**Tools covered:**
+**Tools:**
 - NetworkWalks Hash Calculator
 - NetworkWalks Password Cracker
 - Web Browser
-- Windows PC
 
-**Objectives:**
-- Understand password hash extraction.
-- Explore browser-based password-security tools.
-- Learn the relationship between password hashes and password verification.
-- Understand the security risks of weak passwords.
-
-**Documentation:**  
-The practical observations, screenshots, and results from Module 2 are documented in the `Module-2-NetworkWalks-Tools` directory.
+📁 [View Module 2 Documentation](./Module-2-NetworkWalks-Tools/README.md)
 
 ---
 
-## Key Concepts Learned
+## Learning Objectives
 
-- Password security
-- Password hashing
-- Encryption versus hashing
-- Password auditing
-- Password strength
-- Weak and common passwords
-- Cybersecurity tools and their applications
+- Understand password security.
+- Learn about password hashes.
+- Explore password-auditing tools.
+- Understand the difference between encryption and hashing.
+- Recognize the importance of strong passwords.
+- Develop practical cybersecurity documentation skills.
 
 ## Lab Environment
 
 | Component | Details |
 |---|---|
-| Operating System | Windows |
 | Training Program | NetworkWalks Cybersecurity & Ethical Hacking |
-| Week | Week 3 |
-| Module 1 Tools | John the Ripper and Johnny |
-| Module 2 Tools | NetworkWalks Hash Calculator and Password Cracker |
+| Week | 3 |
+| Operating System | Windows |
+| Modules | 2 |
+| Focus | Password Security |
 
 ## Ethical Considerations
 
-These projects were undertaken as part of a cybersecurity training program. Password-auditing techniques and tools should only be used within authorized environments and on files or systems for which permission has been granted.
+All practical exercises are performed within the context of authorized cybersecurity training. Password-auditing tools should only be used on files, systems, and environments for which permission has been granted.
+
+## Repository Structure
+
+```text
+NetworkWalks-Week3-Password-Security-Labs/
+│
+├── README.md
+│
+├── Module-1-John-the-Ripper/
+│   └── README.md
+│
+└── Module-2-NetworkWalks-Tools/
+    └── README.md
+```
 
 ## Conclusion
 
-The Week 3 practical projects provided an introduction to password-security concepts and password-auditing tools. The exercises highlighted the importance of strong passwords and the need to understand how password protection mechanisms work.
+These projects provide an introduction to password security and cybersecurity auditing tools. They emphasize the importance of secure password practices and understanding how password protection mechanisms work.
 
 ---
 
 **Program:** NetworkWalks Cybersecurity Internship  
 **Week:** 3  
-**Projects:** Module 1 and Module 2  
-**Focus:** Password Security and Auditing
+**Projects:** Project Module 1 and Project Module 2
