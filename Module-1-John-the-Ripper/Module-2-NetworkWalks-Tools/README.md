@@ -1,89 +1,76 @@
-# Module 2: Password Security with NetworkWalks Tools
+# Module 2: Password Cracking with NetworkWalks Tools
 
 ## Overview
 
-This project module focuses on password security using browser-based tools provided by NetworkWalks. It introduces password hash extraction and password auditing concepts through a cybersecurity training exercise.
+This module focused on password security and the process of recovering a password from a protected PDF file using NetworkWalks online tools.
+
+The lab introduced the use of a Hash Calculator to extract a hash value from a password-protected PDF and a Password Cracker to demonstrate how weak passwords can be recovered.
 
 ## Objectives
 
-- Understand password hashes.
+- Understand the concept of password cracking.
+- Learn the difference between hashing and encryption.
+- Understand how password hashes are extracted from protected files.
 - Explore the NetworkWalks Hash Calculator.
-- Understand the purpose of password-auditing tools.
-- Learn about password protection and password strength.
-- Understand the security implications of weak passwords.
+- Explore the NetworkWalks Password Cracker.
+- Understand the importance of strong passwords.
 
 ## Tools Used
 
 - NetworkWalks Hash Calculator
 - NetworkWalks Password Cracker
-- Web Browser
-- Windows PC
+- Windows laptop
+- Web browser
+- Sample password-protected PDF file
 
 ## Lab Environment
 
-| Component | Details |
-|---|---|
-| Operating System | Windows |
-| Training Platform | NetworkWalks |
-| Project | Week 3 – Project Module 2 |
-| Tools | Hash Calculator and Password Cracker |
+The practical exercise was conducted on a Windows laptop using browser-based NetworkWalks tools.
 
-## Concepts Covered
-
-### Password Hashes
-A password hash is a fixed-length representation generated from input data using a hashing algorithm. Hashes are commonly used in authentication and password verification systems.
-
-### Password Security
-The lab explores how password strength affects the security of password-protected files and why weak passwords are more vulnerable.
-
-### Password Auditing
-Password auditing is a security practice used to evaluate password protection and identify weaknesses within authorized environments.
-
-## Lab Documentation
-
-The practical exercise involves exploring the NetworkWalks tools and observing their role in password-security testing.
-
-Screenshots and observations from the lab will be added below.
+## Practical Documentation
 
 ### 1. Hash Calculator
 
-**Description:**  
-The Hash Calculator is used in the training exercise to examine password-protected PDF files and understand hash extraction.
+The Hash Calculator was used to extract the hash value from the provided password-protected PDF file.
 
-**Screenshot:**  
-*To be added.*
+**Screenshot:**
 
-### 2. Password Cracker Interface
+![Hash Calculator](./screenshots/hash-calculator.png)
 
-**Description:**  
-The Password Cracker is introduced as a password-auditing tool within the NetworkWalks training environment.
+### 2. Password Cracker
 
-**Screenshot:**  
-*To be added.*
+The extracted hash was used in the Password Cracker to demonstrate the password recovery process.
 
-### 3. Lab Observations
+**Screenshot:**
 
-*Observations and results from the practical exercise will be documented here.*
+![Password Cracker](./screenshots/password-cracker-interface.png)
 
-## Key Lessons Learned
+### 3. Lab Completion
 
-- Understanding password hashes and their role in security.
-- Recognizing the difference between encryption and hashing.
-- Understanding the importance of strong passwords.
-- Learning about password-auditing tools.
-- Appreciating the importance of authorized cybersecurity testing.
+The final stage involved verifying the recovered password by opening the protected PDF file.
+
+**Screenshot:**
+
+![Lab Completion](./screenshots/module2-completion.png)
+
+## Key Concepts Learned
+
+### Hashing
+
+Hashing is a one-way process that converts data into a fixed-format value known as a hash. Hashes can be used to verify data and are commonly used in password storage.
+
+### Encryption
+
+Encryption is a process that transforms readable data into an unreadable form using a key. Unlike hashing, encryption is designed to be reversible when the correct key is available.
+
+### Password Security
+
+Weak and commonly used passwords are more vulnerable to recovery attempts. Strong passwords should be long, unique, and difficult to guess.
 
 ## Ethical Considerations
 
-Password-auditing tools should only be used within authorized training environments or on files and systems for which permission has been granted.
+Password security testing should only be performed on files, systems, and accounts that you own or have explicit authorization to test.
 
 ## Conclusion
 
-This module introduces password-security concepts and browser-based cybersecurity tools. It highlights the importance of strong passwords and demonstrates the role of password auditing in identifying security weaknesses.
-
----
-
-**Training Program:** NetworkWalks Cybersecurity Internship  
-**Week:** 3  
-**Project Module:** 2  
-**Topic:** Password Cracking with NetworkWalks Tools
+This practical introduced password hash extraction and password security testing using NetworkWalks browser-based tools. It demonstrated the importance of using strong passwords and understanding how weak passwords can compromise protected files.
